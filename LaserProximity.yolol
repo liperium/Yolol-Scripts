@@ -1,0 +1,1 @@
+IF :lase==2THENEND IF :lase==1 AND :rfd<18 THEN:laser=1:rfos=1ENDGOTO1
