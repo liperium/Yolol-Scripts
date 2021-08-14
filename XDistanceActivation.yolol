@@ -1,0 +1,14 @@
+dist=18
+IF :ra==1 AND :rfd<dist THEN:laser=1 :ra=0 END GOTO2
+
+
+-- Use --
+
+    Script to merge a rangefinder with anything (lasers, etc), so it activates at a certain distance.
+    Consider the range difference with your lasers/rangefinder. 15 meters on your lasers, is not the same on your rangefinder if they aren't the same distance from the object.
+
+-- How to use --
+    Rename these 
+        Button name = RA , type = 1
+        RangeFinder OnState = RA , Distance = RFD, SearchLenght VALUE = 100
+        Mining Laser (or Script Button) name = laser (This can be anything, change it for turtle... Whatever)
