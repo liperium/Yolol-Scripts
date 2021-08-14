@@ -7,7 +7,7 @@ IF :SetPower>(10000-:Battery)/100 THEN :GenRate=:SetPower GOTO1 END
 
     Generator efficiency script with a bypass button. SetPower button overrides generators to X percent.
 
--- How to use --
+-- Set Up --
 
     Rename these : 
     Generator FuelLimit = GenRate

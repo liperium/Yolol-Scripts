@@ -7,7 +7,7 @@ IF :ra==1 AND :rfd<dist THEN:laser=1 :ra=0 END GOTO2
     Script to merge a rangefinder with anything (lasers, etc), so it activates at a certain distance.
     Consider the range difference with your lasers/rangefinder. 15 meters on your lasers, is not the same on your rangefinder if they aren't the same distance from the object.
 
--- How to use --
+-- Set Up --
 
     Rename these :
         Button name = RA , type = 1

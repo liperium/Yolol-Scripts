@@ -10,7 +10,7 @@ A generator script with a MinPower button. Helps cranking up the engines before 
 Doesn't waste ANY fuel. Has a Battery threshold. Will never activate generators when Batteries are over it. Recommend 9k+.
 DA = Difference aggressivity. Would keep it between 65-85.
 
--- How to use --
+-- Set Up --
     Rename
         Generator FuelLimit = GenRate
         Optional Button name = MinPower, type = 1, OnValue VALUE = --Your Generator minimum value--, OffValue VALUE = 0
