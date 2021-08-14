@@ -1,5 +1,5 @@
-IF :SetPower>(10000-:Battery)/100 THEN :GenLimit=:SetPower GOTO1 END
-:GenLimit=(10000-:Battery)/100 GOTO1
+IF :SetPower>(10000-:Battery)/100 THEN :GenRate=:SetPower GOTO1 END
+:GenRate=(10000-:Battery)/100 GOTO1
 // Liperium's Generator script
 
 
@@ -10,5 +10,5 @@ IF :SetPower>(10000-:Battery)/100 THEN :GenLimit=:SetPower GOTO1 END
 -- How to use --
 
     Rename these : 
-    Generator FuelLimit = GenLimit
+    Generator FuelLimit = GenRate
       Optional Button name = SetPower, value = ----Your Power Override Value----, type = 1
