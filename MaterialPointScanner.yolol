@@ -1,6 +1,12 @@
-n="\n" IF :scan>0 THEN GOTO2 ELSE :chk=0 GOTO1 END
+n="\n" IF :mps>0 THEN GOTO2 ELSE :chk=0 GOTO1 END
 :reset=1 :::::MAT:::="" :chk=1
-IF :scan>0 THEN IF :rslt==0 THEN :chk=1 GOTO3 END ELSE GOTO1 END
-:::::MAT:::="Scan" :scan=0 :chk=0
+IF :mps>0 THEN IF :rslt==0 THEN :chk=1 GOTO3 END ELSE GOTO1 END
+:::::MAT:::="" :mps=0 :chk=0
 IF:idx<:rslt THEN :::::MAT:::+=:mat+n+(:vol/1728)+n :idx++ GOTO5 END
-// Liperium's Material Point Scanner script
+// Liperium's Material Point mpsner script
+
+-- How to use --
+    Rename these 
+        Button name = MPS , type = 1
+        Screen name = ::::MAT:::
+        Material Scanner name = Scan, index=Idx, Result=Rslt, Material=Mat, Volume=Vol, Scan=Chk
