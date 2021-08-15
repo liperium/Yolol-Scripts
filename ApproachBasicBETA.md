@@ -1,2 +1,2 @@
-#Approach Basic
+# Approach Basic
 ![MPS](/images/MPS.png)
