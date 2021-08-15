@@ -1,5 +1,5 @@
 # Approach Basic
 ![MPS](/images/MPS.png)
-Makes your ship go to a certain distance from an object, using a rangefinder.
+   Makes your ship go to a certain distance from an object, using a rangefinder.
 
-[Script](/ApproachBasicBeta.yolol/)
+[Script](/ApproachBasicBETA.yolol/)
