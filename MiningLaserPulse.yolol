@@ -4,13 +4,13 @@ if :laser == 0 then goto 2 end :collect=1 //:cruise=100
 :laserG1=1 :laserG2=0 IF :laser==0 THEN GOTO1 END GOTO3
 // Liperium's Mining Laser Pulsing script
 
--- Use --
+// -- Use --
 
-Turns on a pulsing laser script, which uses less energy. 
-Can turns on your Ore Collector automatically too if you remove the "//"- Line 1. (**Does not turn it off**)
+// Turns on a pulsing laser script, which uses less energy. 
+// Can turns on your Ore Collector automatically too if you remove the "//"- Line 1. (**Does not turn it off**)
 
--- Set Up --
+// -- Set Up --
 
-    Rename these 
-        Button name = Laser, type = 1
-        Mining Laser naming - Name one group of lasers "LaserG1", and the other "LaserG2".
+//     Rename these 
+//         Button name = Laser, type = 1
+//         Mining Laser naming - Name one group of lasers "LaserG1", and the other "LaserG2".

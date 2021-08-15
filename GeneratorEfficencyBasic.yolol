@@ -3,12 +3,12 @@ IF :SetPower>(10000-:Battery)/100 THEN :GenRate=:SetPower GOTO1 END
 // Liperium's Generator script
 
 
--- Use --
+// -- Use --
 
-    Generator efficiency script with a bypass button. SetPower button overrides generators to X percent.
+//     Generator efficiency script with a bypass button. SetPower button overrides generators to X percent.
 
--- Set Up --
+// -- Set Up --
 
-    Rename these : 
-    Generator FuelLimit = GenRate
-      Optional Button name = SetPower, value = ----Your Power Override Value----, type = 1
+//     Rename these : 
+//     Generator FuelLimit = GenRate
+//       Optional Button name = SetPower, value = ----Your Power Override Value----, type = 1
