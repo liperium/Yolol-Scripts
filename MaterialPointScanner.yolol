@@ -1,9 +1,10 @@
-n="\n" IF :mps>0 THEN GOTO2 ELSE :chk=0 GOTO1 END
-:reset=1 :::::MAT:::="" :chk=1
-IF :mps>0 THEN IF :rslt==0 THEN :chk=1 GOTO3 END ELSE GOTO1 END
-:::::MAT:::="" :mps=0 :chk=0
-IF:idx<:rslt THEN :::::MAT:::+=:mat+n+(:vol/1728)+n :idx++ GOTO5 END
-// Liperium's Material Point mpsner script
+n="\n" z="Ore" x="Crystal" s=1728//1
+IF :scan>0 THEN GOTO3 ELSE :chk=0 GOTO2 END
+:reset=1 :::::MAT:::="" :chk=1 
+IF :scan>0 THEN IF :rslt==0 THEN :chk=1 GOTO4 END ELSE GOTO2 END
+:::::MAT:::="" :scan=0 :chk=0 :idx=:rslt
+IF:idx-->=0 THEN:::::MAT:::+=:mat-z-x+n+(:vol/s)+n GOTO6 END GOTO2
+// Liperium's Material Point script
 
 // -- Use --
 
