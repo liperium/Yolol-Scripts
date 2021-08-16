@@ -1,5 +1,4 @@
-dist=18
-IF :ra==1 AND :rfd<dist THEN:laser=1 :ra=0 END GOTO2
+dist=18 IF :ra==1 AND :rfd<dist THEN:laser=1 :ra=0 :rfd=100 END GOTO1
 // Liperium's XDistanceActivation script
 
 // -- Use --
