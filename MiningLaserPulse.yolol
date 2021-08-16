@@ -3,7 +3,7 @@ if :laser == 0 then goto 2 end :collect=1 //:cruise=100
 :laserG1=0 :laserG2=1 IF :laser==0 THEN GOTO1 END
 :laserG1=1 :laserG2=0 IF :laser==0 THEN GOTO1 END GOTO3
 // Liperium's Mining Laser Pulsing script
-
+            
 // -- Use --
 
 // Turns on a pulsing laser script, which uses less energy. 
