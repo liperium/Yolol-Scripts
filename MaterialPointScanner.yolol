@@ -8,10 +8,10 @@ IF:idx-->=0 THEN:::::MAT:::+=:mat-z-x+n+(:vol/s)+n GOTO6 END GOTO2
 
 // -- Use --
 
-//     The script shows the stacks found in the pointed object. If you want to show raw volume, please remove the /1728
+//     The script shows the stacks found in the pointed object. If you want to show raw volume, please replace 1728 by 1
 
-// -- Set Up --
+// -- Set Up -
 //     Rename these :
-//         Button name = MPS , type = 1
+//         Button name = Scan , type = 1
 //         Screen name = ::::MAT:::
 //         Material Scanner name = Scan, index=Idx, Result=Rslt, Material=Mat, Volume=Vol, Scan=Chk
