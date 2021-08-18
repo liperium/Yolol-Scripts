@@ -1,7 +1,7 @@
-BatTH=9600 DA = 75
+BatTH=9800 DA = 75
 IF :MinPower>(10000-:Battery)/DA THEN :GenRate=:MinPower GOTO2 END
 IF :Battery<BatTH then GOTO4 END :GenRate=0 GOTO2
-:GenRate=(10000-:Battery)/DA IF :Battery>9920 THEN GOTO2 END GOTO4
+:GenRate=(10000-:Battery)/DA IF :Battery>9960 THEN GOTO2 END GOTO4
 // Liperium's Advanced Generator script
 
 // -- Use --
