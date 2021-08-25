@@ -1,3 +1,4 @@
-MF=300000 TH=30 /100 MP=:GasNetworkMaxResource
-IF:FCUForward>50 THEN :hatch=1 END   IF:AMMO THEN :AWarn=1 END
-IF:StoredRawFuel/MF<TH OR :Propellant/MP>TH THEN :RWarn=1 END GOTO 2
+MF=300000 TH=30 /100 MA=200 MP=:GasNetworkMaxResource
+IF:FCUForward>30 THEN :hatch=1 END x=:StoredRawFuel y=:Propellant
+IF:AMMO/MA<TH THEN z=1 ELSE z=0 END :AWarn=z 
+IF x/MF<TH OR y/MP<TH THEN z=1 ELSE z=0 END :RWarm=z GOTO2
