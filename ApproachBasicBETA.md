@@ -3,7 +3,7 @@
    
 Makes your ship go to a certain distance from an object, using a rangefinder.
 
-[Script](/ApproachBasicBETA.yolol/)
+(/ApproachBasicBETA.yolol/)
 ```
 sm = 0.1 dt = 30 p=-90 :ra=:approach GOTO 1+:approach
 t=:rfd IF:approach>0 AND :rfd<200 THENGOTO3ENDGOTO1 s=(t-dt)*sm IFs>50
