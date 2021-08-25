@@ -1,4 +1,3 @@
-sd = 0.1 dt = 30 p=-90 :ra=:approach GOTO 1+:approach
-//:ra=1   
-t=:rfd IFt>200 THEN GOTO2 END IF:approach==1 THEN GOTO4 END:ra=0 GOTO1
-s=(t-dt)*sd IFs>0 THEN:FCUForward=s ELSE:FCUBackward=s*p END GOTO3
+sm = 0.1 dt = 30 p=-90 :ra=:approach GOTO 1+:approach
+t=:rfd IF:approach>0 AND :rfd<200 THENGOTO3ENDGOTO1 s=(t-dt)*sm IFs>50
+THENs=50 ENDIFs>0 THEN:FCUForward=s ELSE:FCUBackward=s*p ENDGOTO2
