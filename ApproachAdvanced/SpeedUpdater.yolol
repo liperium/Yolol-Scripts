@@ -1,2 +1,2 @@
-t=5 :av=0
-:av=(:rfd+av+av)/3 GOTO2
+t=5 :av=0 l=0 c=:rfd x=0.2
+c=:rfd IF c<900 THEN :av=(l/x-c/x+:av)/2 l=c ELSE :av=0 END GOTO2
