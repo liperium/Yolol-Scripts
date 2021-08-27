@@ -23,5 +23,4 @@ Activation Distance - **p**
 ## [Code](src/ApproachBasicBETA.yolol/)
 
 <!--MARKDOWN-AUTO-DOCS:START (CODE:src=./src/ApproachBasicBETA.yolol) -->
-
 <!--MARKDOWN-AUTO-DOCS:END-->

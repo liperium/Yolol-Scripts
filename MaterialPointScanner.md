@@ -32,5 +32,4 @@ Reads the ores in the opposite way, so you always have the core material first.
 
 ## [Code](src/MaterialPointScanner.yolol/)
 <!--MARKDOWN-AUTO-DOCS:START (CODE:src=./src/MaterialPointScanner.yolol) -->
-
 <!--MARKDOWN-AUTO-DOCS:END-->

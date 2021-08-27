@@ -13,3 +13,4 @@ jobs:
           uses: dineshsonachalam/markdown-autodocs@v1.0.3
           with:
             output_file_paths: '[./ApproachBasicBETA.md,./MaterialPointScanner.md,./MissileLauncher.md,./MiningLaserPulse.md,./GeneratorEfficiencyBasic.md]'
+            categories: '[code-block]'
