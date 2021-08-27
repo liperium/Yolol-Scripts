@@ -36,11 +36,4 @@ Make sure your missiles are built correcly and that they are locked from the fue
 
 ## [Code](src/MissileLauncher.yolol/)
 <!--MARKDOWN-AUTO-DOCS:START (CODE:src=./src/MissileLauncher.yolol) -->
-```
-:MissileLock=1 :LauncherLock=1 i=0 :ResetM=0 :MissilesLeft=10
-i++ :ShootM=0 IF --:MissilesLeft<1 THEN GOTO5 END 
-IF:ResetM THENGOTO1END IF:ShootM THEN:ST=i :LaunchM=1 GOTO2ENDGOTO3
-
-IF:ResetM THENGOTO1END GOTO5
-```
 <!--MARKDOWN-AUTO-DOCS:END-->

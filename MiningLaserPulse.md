@@ -23,11 +23,4 @@ Turns on collector when pressing the button. **( "//" before ":collect=1" to rem
 
 ## [Code](src/MiningLaserPulse.yolol/)
 <!--MARKDOWN-AUTO-DOCS:START (CODE:src=./src/MiningLaserPulse.yolol) -->
-```
-:laserG1=0 :laserG2=0 //collect=0
-dist=18 IF :ra==1 AND :rfd<dist THEN:laser=1 :ra=0 :rfd=100 END
-if :laser == 0 THEN GOTO2 end :collect=1
-:laserG1=0 :laserG2=1 IF :laser==0 THEN GOTO1 END
-:laserG1=1 :laserG2=0 IF :laser==0 THEN GOTO1 END GOTO4
-```
 <!--MARKDOWN-AUTO-DOCS:END-->
