@@ -1,0 +1,4 @@
+
+
+x=:RangeFinderDistance IF x>990 THEN GOTO3 END
+:FCUUpDown=100 :FCUForward=x-:sp

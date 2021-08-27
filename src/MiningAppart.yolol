@@ -1,0 +1,4 @@
+s=23 e=25
+x=s :TurRotL=s :TurRotR=-s :CWait=1
+IF :MiningLaserOn>0 THEN x+=0.5 :Dwait=1 GOTO4 END GOTO3
+:TurRotL=x :TurRotR=-x IF x<e THEN GOTO3 END GOTO1

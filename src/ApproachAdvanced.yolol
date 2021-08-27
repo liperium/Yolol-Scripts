@@ -1,0 +1,24 @@
+// Approach ahead - Mutleyx
+:Approach=0 :range=0 od=0 oa=0 di=17.5 ac=4.5
+a=:Approach IF a!=oa THEN oa=a :range=a END GOTO3+a
+d=:RangeAhead IF d<500 THEN GOTO6 END
+:FcuForward=0 :FcuBackward=0 GOTO3
+IF d>di-1 and d<di+1 THEN GOTO9 END
+done=0 cd=di-d dx=od-cd od=cd adj=-(cd-ac*dx) GOTO15
+
+:FcuForward=0 :FcuBackward=0
+done++ IF done > 10 THEN :Approach = 0 END GOTO2*:Approach+2
+
+
+
+
+IF adj>d THEN adj=d END :FcuForward=0 :FcuBackward=0
+IF adj<0 THEN :FcuBackward=-adj*0.5 ELSE :FcuForward=adj*0.25 END
+IF :Approach THEN GOTO4 ELSE GOTO9 END
+
+//di approach range 
+//a=:Approach
+//d=:rangeAhead
+//cd=di-d - remaining distance
+//dx=od-cd , so "speed"
+//od= old dx

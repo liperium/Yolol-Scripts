@@ -1,0 +1,2 @@
+l=:rfd x=0
+r=:rfd IFr!=l AND:Auto THEN x=1 l=r ELSE x=0 l=r END :Cannon=x GOTO2
