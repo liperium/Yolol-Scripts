@@ -1,7 +1,7 @@
 name: Github Actions
 on: [push]
 jobs:
-  check-bats-version:
+  Markdown-Autodocs:
     runs-on: ubuntu-latest
     steps:
       - uses: dineshsonachalam/markdown-autodocs@v1.0.3
