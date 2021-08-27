@@ -7,9 +7,10 @@ on:
 
 jobs:        
   auto-update-readme:
-    - uses: actions/checkout@v2
+    
       runs-on: ubuntu-latest
       steps:
+        - uses: actions/checkout@v2
         - name: Markdown autodocs
           uses: dineshsonachalam/markdown-autodocs@v1.0.3
           with:
