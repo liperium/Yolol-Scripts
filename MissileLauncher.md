@@ -28,6 +28,11 @@ Make sure your missiles are built correcly and that they are locked from the fue
     MinValue=0
     MaxValue=9
 ```
+```
+-- Missile Launcher --
+    Selected Tube = ST
+    LaunchMissile = LaunchM
+```
 
 ## [Code](src/MissileLauncher.yolol/)
 
