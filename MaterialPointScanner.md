@@ -32,7 +32,8 @@ Reads the ores in the opposite way, so you always have the core material first.
 
 ## [Code](src/MaterialPointScanner.yolol/)
 <!--MARKDOWN-AUTO-DOCS:START (CODE:src=./src/MaterialPointScanner.yolol) -->
-```
+<!-- The below code snippet is automatically added from ./src/MaterialPointScanner.yolol -->
+```yolol
 n="\n" z="Ore" x="Crystal" s=1728//1
 IF :scan>0 THEN GOTO3 ELSE :chk=0 GOTO2 END
 :reset=1 :::::MAT:::="" :chk=1 
