@@ -18,10 +18,7 @@
 
 ## Energy ⚡
 
-### - Generator Efficiency
-
-- [Basic](/src/GeneratorEfficiencyBasic.yolol/)
-- [Advanced](/src/GeneratorEfficiencyAdvanced.yolol/)
+### - **Generator Efficiency** = [Basic](/src/GeneratorEfficiencyBasic.yolol/) | [Advanced](/src/GeneratorEfficiencyAdvanced.yolol/)
 
 ## Combat 💣
 
