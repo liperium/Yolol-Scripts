@@ -1,2 +1,2 @@
-l=:rfd x=0
-r=:rfd IFr!=l AND:Auto>0 THEN:Shoot=1 l=rELSE :Shoot=0 END GOTO2
+l=:rfd x=0 y=999
+r=:rfd IFr<y AND:Auto>0 THEN:Shoot=1 l=rELSE :Shoot=0 END GOTO2
