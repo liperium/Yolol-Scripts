@@ -1,0 +1,4 @@
+- name: Markdown autodocs
+  uses: dineshsonachalam/markdown-autodocs@v1.0.3
+with:
+ commit_message: Code for Markdowns
