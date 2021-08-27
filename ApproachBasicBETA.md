@@ -20,11 +20,11 @@ Target Distance - **dt**
 
 Activation Distance - **p**
 
-## Code
-
+## [Code](src/ApproachBasicBETA.yolol/)
+<!--MARKDOWN-AUTO-DOCS:START (CODE:src=./src/ApproachBasicBETA.yolol) -->
 ```
 sm = 0.07 dt = 30 p=-90 :ra=:approach GOTO 1+:approach
 t=:rfd IF:approach>0 AND :rfd<200 THENGOTO3ENDGOTO1 s=(t-dt)*sm IFs>50
 THENs=50 ENDIFs>0 THEN:FCUForward=s ELSE:FCUBackward=s*p ENDGOTO2
 ```
-[Source](src/ApproachBasicBETA.yolol/)
+<!--MARKDOWN-AUTO-DOCS:END-->
