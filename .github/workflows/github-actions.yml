@@ -1,4 +1,4 @@
-- name: Markdown autodocs
+name: Github Actions
 on: [push]
 jobs:
   check-bats-version:
