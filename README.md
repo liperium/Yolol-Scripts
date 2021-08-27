@@ -9,10 +9,10 @@
 ## Mining ⛏
 
 ### - [Material Point Scanner](/MaterialPointScanner.md/) ✨
-<!-- 
-MARKDOWN-AUTO-DOCS:START (CODE:src=./src/MaterialPointScanner.yolol)>
-MARKDOWN-AUTO-DOCS:END
--->
+ 
+<!--MARKDOWN-AUTO-DOCS:START (CODE:src=./src/MaterialPointScanner.yolol) -->
+<!--MARKDOWN-AUTO-DOCS:END-->
+
 ### - [Mining Laser Pulse](/MiningLaserPulse.md/)
 <!-- 
 ### - []() 
