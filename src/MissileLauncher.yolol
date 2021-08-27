@@ -1,5 +1,6 @@
-:MissileLock=1 :LauncherLock=1 i=0 :ResetM=0 :MissilesLeft=10
-i++ :ShootM=0 IF --:MissilesLeft<1 THEN GOTO5 END 
-IF:ResetM THENGOTO1END IF:ShootM THEN:ST=i :LaunchM=1 GOTO2ENDGOTO3
-
-IF:ResetM THENGOTO1END GOTO5
+:LauncherLock=0 x=10 :MissilesLeft=0
+:MissileLock=1 :LauncherLock=1 :ResetM=0 f=0 :ChipWait=6 i=1
+IF ++f<x THEN IF :ML=="Locked" THEN:MissilesLeft++ ENDGOTO3 END GOTO5
+i++ :ShootM=0 IF --:MissilesLeft<1 THEN GOTO6 END
+IF :ResetM THENGOTO1END IF:ShootM THEN:ST=i :LaunchM=1 GOTO4ENDGOTO5
+IF :ResetM THENGOTO1END GOTO6

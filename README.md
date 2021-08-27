@@ -12,7 +12,7 @@
 <!-- 
 ### - []() 
 -->
----
+
 ## Movement 🛸
 
 ### - [ISAN V2](/src/IsanV2.yolol/) This is a copy paste from official source
@@ -20,14 +20,14 @@
 <!-- 
 ### - []() 
 -->
----
+
 ## Energy ⚡
 
 ### - **Generator Efficiency** = [Basic](/src/GeneratorEfficiencyBasic.yolol/) | [Advanced](/src/GeneratorEfficiencyAdvanced.yolol/)
 <!-- 
 ### - []() 
 -->
----
+
 ## Combat 💣
 
 ### - [Missile Launcher](/MissileLauncher.md/)
@@ -35,7 +35,7 @@
 <!-- 
 ### - []() 
 -->
----
+
 ## General 💡
 
 ### - [Information Display](/src/InformationDisplay.yolol/)
