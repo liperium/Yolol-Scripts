@@ -13,7 +13,7 @@
 ## Movement 🛸
 
 ### - [ISAN V2](/src/IsanV2.yolol/) This is a copy paste from official source
-### - [Approach Basic](/ApproachBasicBeta.md/)
+### - [Approach Basic](/ApproachBasicBETA.md/)
 
 
 ## Energy ⚡
