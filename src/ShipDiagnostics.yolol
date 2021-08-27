@@ -1,0 +1,3 @@
+x="Scanner OFF" w="WarpClass: \n" d="D-Errors: \n" n="\n"
+IF:diag THENx=:WarpClass+n y=:DurabilityErrors :Diagnostic=w+x+d+y END
+IF:diag==0 THEN:Diagnostic="Scanner OFF" END GOTO2

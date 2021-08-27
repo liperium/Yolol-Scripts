@@ -1,5 +1,5 @@
 x=10 T=1000 MF=300000*x MB=10000*x
 MR=:MaxRadiatorCoolant*x MP=:GasNetworkMaxResource*x 
 l=" Prop: " o=" Fuel: " n=" Batt: " v=" Cool: " e="%\n" 
-p=:Propellant/MP*T f=:StoredRawFuel/MF*T b=:Battery/MB*T
-c=:RadiatorCoolant/MR*T :::::inf:::=l+p+e+o+f+e+n+b+e+v+c+e GOTO4
+p=l+(:Propellant/MP*T)+e f=:StoredRawFuel/MF*T b=:Battery/MB*T
+c=:StoredRadiatorCoolant/MR*T :::::inf:::=p+o+f+e+n+b+e+v+c+e GOTO4
