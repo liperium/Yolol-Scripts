@@ -1,8 +1,10 @@
 # Missile Launcher
 
-Shoots missiles one by one, and makes sure you lock everything up too. 
+Shoots missiles one by one.
 
 Reset button lets you refill the launcher.
+
+Has a screen so you can see how many missiles are remaining.
 
 ## Usage
 ### Preparation
