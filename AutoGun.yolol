@@ -1,0 +1,2 @@
+l=:rfd x=0
+:rfd=r IFr!=l AND:AutoShoot THEN x=1 ELSE x=0 END :Cannon=x l=r GOTO2
