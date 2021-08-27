@@ -3,11 +3,12 @@
 
 **I am currently re-structuring the database to make it more user friendly. Sorry if stuff seems out of place.**
 
+✨ : Favorites
 
 ---
 ## Mining ⛏
 
-### - [Material Point Scanner](/MaterialPointScanner.md/)
+### - [Material Point Scanner](/MaterialPointScanner.md/) ✨
 ### - [Mining Laser Pulse](/MiningLaserPulse.md/)
 <!-- 
 ### - []() 
@@ -23,22 +24,22 @@
 
 ## Energy ⚡
 
-### - **Generator Efficiency** = [Basic](/src/GeneratorEfficiencyBasic.yolol/) | [Advanced](/src/GeneratorEfficiencyAdvanced.yolol/)
+### - **Generator Efficiency** = [Basic](/src/GeneratorEfficiencyBasic.yolol/) ✨ | [Advanced](/src/GeneratorEfficiencyAdvanced.yolol/)
 <!-- 
 ### - []() 
 -->
 
-## Combat 💣
+## Combat 💥
 
 ### - [Missile Launcher](/MissileLauncher.md/)
-### - [Automatic Gun Firing](/src/AutoGun.yolol/)
+### - [Automatic Gun Firing](/src/AutoGun.yolol/) 
 <!-- 
 ### - []() 
 -->
 
 ## General 💡
 
-### - [Information Display](/src/InformationDisplay.yolol/)
+### - [Information Display](/src/InformationDisplay.yolol/)✨
 <!-- 
 ### - []() 
 -->
