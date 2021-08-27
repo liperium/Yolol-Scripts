@@ -6,6 +6,8 @@ Shows ore contents in **stacks**.
 
 Reads the ores in the opposite way, so you always have the core material first.
 
+<img src="images/MPS.png" alt="Example" width="216"/>
+
 ## Usage
 ### Naming
 ```
