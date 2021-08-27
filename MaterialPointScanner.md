@@ -1,6 +1,8 @@
 # Material Point Scanner
 
-Scans constantly until it finds a result (or you depress the button).
+Scans constantly until it finds a result (or you release the button).
+
+Shows ore contents in **stacks**.
 
 Reads the ores in the opposite way, so you always have the core material first.
 
@@ -17,12 +19,13 @@ Reads the ores in the opposite way, so you always have the core material first.
 ```
 ```
 -- Material Point Scanner --
-    Name = Scan
+    Active = Scan
     Index=Idx
     Result=Rslt
     Material=Mat
     Volume=Vol
     Scan=Chk
+    Reset=Reset
 ```
 
 ## [Code](src/MaterialPointScanner.yolol/)
