@@ -23,4 +23,5 @@ Turns on collector when pressing the button. **( "//" before ":collect=1" to rem
 
 ## [Code](src/MiningLaserPulse.yolol/)
 <!--MARKDOWN-AUTO-DOCS:START (CODE:src=./src/MiningLaserPulse.yolol) -->
+
 <!--MARKDOWN-AUTO-DOCS:END-->
