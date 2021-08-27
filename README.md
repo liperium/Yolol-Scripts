@@ -8,7 +8,7 @@
 ## Mining ⛏
 
 ### - [Material Point Scanner](/MaterialPointScanner.md/)
-### - [Mining Laser Pulse](/src/MiningLaserPulse.yolol/)
+### - [Mining Laser Pulse](/MiningLaserPulse.md/)
 
 ## Movement 🛸
 
