@@ -40,6 +40,7 @@
 ## General 💡
 
 ### - [Information Display](/src/InformationDisplay.yolol/)✨
+### - [Ship Diagnostic Scanner](/ShipDiagnosticScanner.md/)
 <!-- 
 ### - []() 
 -->
