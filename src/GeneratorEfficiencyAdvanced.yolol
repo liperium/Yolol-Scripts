@@ -12,5 +12,5 @@ IF :Battery<BatTH then GOTO4 END :GenRate=0 GOTO2
 
 // -- Set Up --
 //     Rename
-//         Generator FuelLimit = GenRate
+//         Generator FuelUnitRateLimit = GenRate
 //         Optional Button name = MinPower, type = 1, OnValue VALUE = --Your Generator minimum value--, OffValue VALUE = 0

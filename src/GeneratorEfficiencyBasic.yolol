@@ -10,5 +10,5 @@ IF :MinPower>(10000-:Battery)/100 THEN :GenRate=:MinPower GOTO1 END
 // -- Set Up --
 
 //     Rename these : 
-//     Generator FuelLimit = GenRate
+//     Generator FuelUnitRateLimit = GenRate
 //       Optional Button name = MinPower, value = ----Your Power Override Value----, type = 1
