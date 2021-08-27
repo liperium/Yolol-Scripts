@@ -15,6 +15,7 @@ Make sure your missiles are built correcly and that they are locked from the fue
     Name = ShootM
     Type = 1
 ```
+```
 -- Button --
     Name = ResetM
     Type = 1
