@@ -1,4 +1,4 @@
-BatTH=9800 DA = 80 T=9950 S=1
+BatTH=9800 DA = 80 T=9970 S=1
 IF :MinPower>(10000-:Battery)/DA THEN x=:MinPower S=2 GOTO5 END
 IF :Battery<BatTH THEN GOTO4 END x=0 S=2 GOTO5
 x=(10000-:Battery)/DA IF :Battery>T THEN GOTO2 END S=4
