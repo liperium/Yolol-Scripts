@@ -1,14 +1,17 @@
-BatTH=9800 DA = 75
-IF :MinPower>(10000-:Battery)/DA THEN :GenRate=:MinPower GOTO2 END
-IF :Battery<BatTH then GOTO4 END :GenRate=0 GOTO2
-:GenRate=(10000-:Battery)/DA IF :Battery>9960 THEN GOTO2 END GOTO4
+BatTH=9800 DA = 80 T=9950 S=1
+IF :MinPower>(10000-:Battery)/DA THEN x=:MinPower S=2 GOTO5 END
+IF :Battery<BatTH THEN GOTO4 END x=0 S=2 GOTO5
+x=(10000-:Battery)/DA IF :Battery>T THEN GOTO2 END S=4
+:FuelChamberUnitRateLimit=x GOTOS
 // Liperium's Advanced Generator script
 
 // -- Use --
 
 // A generator script with a MinPower button. Helps cranking up the engines before shooting mining lasers.
 // Doesn't waste ANY fuel. Has a Battery threshold. Will never activate generators when Batteries are over it. Recommend 9k+.
-// DA = Difference aggressivity. Would keep it between 65-85.
+// DA = Difference aggressivity. Would keep it between 70-100.
+// BatTH = Threshold of the battery for the activation of the regeneration
+
 
 // -- Set Up --
 //     Rename
