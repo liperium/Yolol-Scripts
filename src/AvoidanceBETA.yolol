@@ -1,4 +1,5 @@
 
-
-x=:RangeFinderDistance IF x>990 THEN GOTO3 END
-:FCUUpDown=100 :FCUForward=x-:sp
+bc=10 fsi=4 c=0
+IF:AutoCruise AND :Rfd>990 THEN GOTO5 END GOTO3+:AutoCruise 
+c+=fsi :FCUForward=c+fsi GOTO3
+:FCUForward=0 c=fsi*-4 y=:cs IF y>3 THEN :FCUBackward=y*bc END GOTO3
